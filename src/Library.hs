@@ -45,10 +45,5 @@ example1 = Nothing
 example2 :: Maybe String
 example2 = Just "Carlos"
 
-c*(aa*bc*b*c*aa*c*bb*(a + c)* + bc*b*aa*c*bb*(a + c)a*c*bc*b*aa*c*bb*(a + c)* + ε)
 
-1 = a*(b(c*aa*c)*c*aa*bb)*((c*aa*c)*c*aa*ba1 + a*b(c*aa*c)*c*aa*bc1 + a*b(c*aa*c)*c*b0) + a*c0
-
-1 = (a*(b(c*aa*c)*c*aa*bb)*((c*aa*c)*c*aa*ba)* + (a*b(c*aa*c)*c*aa*bc)* + a*b(c*aa*c)*c*b0) + a*c0
-
-1 = a*(b(c*aa*c)*c*aa*bb)*(((c*aa*c)*c*aa*ba + a*b(c*aa*c)*c*aa*bc) 1 + a*b(c*aa*c)*c*b0) + a*c0
+cuantoPagaCadaUno precioPizza cantidadComensales = (\precio -> div precio cantidadComensales) (((precioPizza*) . ceiling . (/8) . (3*)) cantidadComensales)
